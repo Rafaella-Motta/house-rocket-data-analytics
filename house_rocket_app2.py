@@ -243,7 +243,7 @@ def attributes_distribution(data):
 if __name__ == '__main__':
     # ETL
     # data extration
-    data = get_data("C:\Users\rafae\OneDrive\Documentos\repos\python_zero_ao_ds\kc_house_data.csv\Pasta Nova\kc_house_data.csv")
+    data = get_data(r"C:\Users\rafae\OneDrive\Documentos\repos\python_zero_ao_ds\kc_house_data.csv\Pasta Nova\kc_house_data.csv")
 
     geofile = get_geofile('https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson')
 
